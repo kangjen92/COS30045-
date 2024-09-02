@@ -1,5 +1,5 @@
 function init(){
-    // Example for murray
+    // Example from murray
     var w = 500;
     var h = 100;
     var barPadding = 1;
