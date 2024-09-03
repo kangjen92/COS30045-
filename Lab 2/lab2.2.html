@@ -25,13 +25,14 @@
         <a href="lab2.4.html">Lab2.4</a>
     </nav>
     <br>
+    <h1>SECTION C1 QUESTION: Show the data value just under the top line of the bar</h1>
 	<script>
     // Example from murray
     var w = 500;
     var h = 100;
     var barPadding = 1;
 
-    var dataset = [14, 5, 20, 16, 9, 10, 11, 12, 13, 15]  // add more num
+    var dataset = [14, 18, 20, 16, 11, 19, 17, 12, 13, 15]  // add more num
 
     var svg = d3.select("body")
                 .append("svg")
@@ -68,7 +69,7 @@
         return i * (w / dataset.length) + 16;
     })
     .attr("y", function(d){
-        return h - (d*4)
+        return h - (d*3)
     })
 
 
